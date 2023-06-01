@@ -1,10 +1,53 @@
 * {
     background-color: rgb(32, 32, 32);
     color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-nav {
+    text-decoration: none;
+
+}
+
+.top-nav-right {
+    float: right;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+.heading {
+    font-family: 'cascade mono', monospace;
+    color: rgb(217, 149, 76);
+}
+
+#home {
+    color:rgb(76, 136, 221);
+    display: inline;
+}
+
+#title {
+    color: rgb(167, 213, 255);
 }
 
 #pic {
     width: 200px;
     float: right;
 
+}
+
+#email {
+    font-size: 80px;
+    text-align: center;
 }
