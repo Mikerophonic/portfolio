@@ -4,37 +4,30 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.top-nav {
+.top-nav a {
     text-decoration: none;
+    font-family: 'cascade mono', monospace;
 
 }
 
 .top-nav-right {
     float: right;
+    vertical-align: baseline;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
+#video {
+    width: 1432px;
 }
 
-li {
-    display: inline;
-}
 
 .heading {
     font-family: 'cascade mono', monospace;
     color: rgb(217, 149, 76);
 }
 
-#home {
-    color:rgb(76, 136, 221);
-    display: inline;
+#name {
+    color:rgb(255, 255, 255);
+    font-size: 24px;
 }
 
 #title {
@@ -50,4 +43,9 @@ li {
 #email {
     font-size: 80px;
     text-align: center;
+}
+
+#attribution {
+    font-size: 8px;
+    color: rgb(93, 93, 93);
 }
