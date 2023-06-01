@@ -1,0 +1,10 @@
+* {
+    background-color: rgb(32, 32, 32);
+    color:white;
+}
+
+#pic {
+    width: 200px;
+    float: right;
+
+}
