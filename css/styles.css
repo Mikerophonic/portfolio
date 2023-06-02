@@ -8,7 +8,7 @@
 
 .top-nav a {
     text-decoration: none;
-    font-family: 'cascade mono', monospace;
+    font-family: 'cascade mono', monospace, sans-serif;
 }
 
 .top-nav-right {
@@ -27,7 +27,7 @@
 /*sections*/
 
 .heading {
-    font-family: 'cascade mono', monospace;
+    font-family: 'cascade mono', monospace, sans-serif;
     color: rgb(217, 149, 76);
 }
 
@@ -50,6 +50,7 @@
     font-size: 80px;
     display: block;
     text-align: center;
+    text-decoration: none;
 }
 
 #attribution {
