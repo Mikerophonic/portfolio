@@ -53,12 +53,21 @@
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.text {
+    background-color: rgb(74, 74, 74);
+}
+
 #attribution {
     font-size: 10px;
     color: rgb(93, 93, 93);
 }
 
-.item {
-    display: flex;
-    background-color:rgb(114, 114, 114)
+
+
+span {
+    color:rgb(71, 132, 190)
 }
