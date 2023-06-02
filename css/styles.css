@@ -4,21 +4,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* navigation */
+
 .top-nav a {
     text-decoration: none;
     font-family: 'cascade mono', monospace;
-
 }
 
 .top-nav-right {
     float: right;
-    vertical-align: baseline;
+}
+
+.top-nav-right a {
+    padding-left: 40px;
 }
 
 #video {
     width: 1432px;
 }
 
+
+/*sections*/
 
 .heading {
     font-family: 'cascade mono', monospace;
@@ -31,7 +37,7 @@
 }
 
 #title {
-    color: rgb(167, 213, 255);
+    color: rgb(71, 132, 190);
 }
 
 #pic {
@@ -42,10 +48,16 @@
 
 #email {
     font-size: 80px;
+    display: block;
     text-align: center;
 }
 
 #attribution {
-    font-size: 8px;
+    font-size: 10px;
     color: rgb(93, 93, 93);
+}
+
+.item {
+    display: flex;
+    background-color:rgb(114, 114, 114)
 }
