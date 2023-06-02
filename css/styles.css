@@ -41,9 +41,12 @@
 }
 
 #pic {
-    width: 200px;
-    float: right;
-
+    width: 180px; 
+    float: left;
+    margin-left: 140px;
+    margin-right: 15px;
+    margin-botttom: 15px;
+    margin-top: 25px;
 }
 
 #email {
@@ -59,6 +62,9 @@ ul {
 
 .text {
     background-color: rgb(74, 74, 74);
+    width: 500px;
+    padding: 20px;
+    margin: 20px 20px 20px 120px;
 }
 
 #attribution {
