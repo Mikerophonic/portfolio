@@ -49,15 +49,36 @@
     margin-top: 25px;
 }
 
+
 #email {
     font-size: 80px;
     display: block;
     text-align: center;
     text-decoration: none;
+    font-family: 'cascade mono', monospace, sans-serif;
 }
 
 ul {
     list-style-type: none;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+ol {
+    margin-left: 1200px;
+}
+
+.list {
+    margin: 50px;
+}
+
+.list a {
+    background-color: rgb(74, 74, 74);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 .text {
@@ -65,6 +86,8 @@ ul {
     width: 500px;
     padding: 20px;
     margin: 20px 20px 20px 120px;
+    border-radius: 15px;
+    justify-content: center;
 }
 
 #attribution {
