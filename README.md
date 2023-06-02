@@ -17,6 +17,7 @@ This is my first attempt at building a webpage from scratch, so it is pretty jan
 
 * Just run in your browser.
 
+[Github Pages - portfolio](https://mikerophonic.github.io/portfolio/)
 
 ## Known Bugs
 
